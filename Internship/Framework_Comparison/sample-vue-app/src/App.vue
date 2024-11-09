@@ -37,7 +37,7 @@ const addTodo = () => {
     category: input_category.value,
     done: false,
     editable: false,
-    createdAt: new Date().getTime()
+    createdAt: new Date().get()
   })
 }
 
@@ -55,7 +55,7 @@ onMounted(() => {
 export default {
   data() {
     return {
-      username: 'Paul'
+      username: 'Micky Dev'
     }
   },
   methods: {
@@ -95,7 +95,7 @@ export default {
       <h3>CREATE A TODO</h3>
 
       <form id="new-todo-form" @submit.prevent="addTodo">
-        <h4>What's on your todo list?</h4>
+        <h4>What's your todays's task??</h4>
         <input
           type="text"
           name="content"
