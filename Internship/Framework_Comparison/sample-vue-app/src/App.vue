@@ -55,7 +55,7 @@ onMounted(() => {
 export default {
   data() {
     return {
-      username: 'Micky Dev'
+      username: 'Kossie'
     }
   },
   methods: {
